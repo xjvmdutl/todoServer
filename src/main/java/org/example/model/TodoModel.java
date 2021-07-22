@@ -1,4 +1,4 @@
-package model;
+package org.example.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class TodoEntity {
+public class TodoModel {
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private Long id;
